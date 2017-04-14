@@ -2,6 +2,7 @@
 A nifty GUI utility that batch converts QtDesigner *.ui files to .py files
 
 ## Installation
+* Requires Python 3.x.x
 * Requires PyQt5   `pip install pyqt5`
 * Create a file named pyuic5.bat (if it doesn't exist already) with the following contents-
 * `python -m PyQt5.uic.pyuic %1 %2 %3 %4 %5 %6 %7 %8 %9`
